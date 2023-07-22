@@ -20,7 +20,7 @@ export default function App() {
     }
   }
 
-      function (){
+      function toggle(){
     themeDispatch({type:"Toggle"})
   }
 
