@@ -13,7 +13,7 @@ export default function App() {
       case "Toggle":
         if(state.theme==="dark")
           return theme.light
-        else
+        else 
           return theme.dark
       case "Auth":
         return action.state
