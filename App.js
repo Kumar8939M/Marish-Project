@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import AppNavigator from './navigator/AppNavigator';
 import { theme } from './config/Theme';
-import { useReducer } from 'react';
+import { useReducer } from 'react';  
 import { themeContext,authContext } from './config/themeContext';
 import NoteProvider from './config/NoteProvider';
 
