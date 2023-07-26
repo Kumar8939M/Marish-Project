@@ -16,7 +16,7 @@ export default function App() {
         else
           return theme.dark
       case "Auth":
-        return action.state
+        return action.state   
     }
   }
 
