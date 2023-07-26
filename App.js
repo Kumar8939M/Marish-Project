@@ -1,3 +1,4 @@
+
 import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import AppNavigator from './navigator/AppNavigator';
