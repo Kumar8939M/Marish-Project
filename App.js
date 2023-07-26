@@ -15,7 +15,7 @@ export default function App() {
           return theme.light
         else
           return theme.dark
-      case "Auth":
+      case "Auth": 
         return action.state   
     }
   }
