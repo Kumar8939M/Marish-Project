@@ -11,7 +11,7 @@ export default function App() {
   function reducer(state,action){ 
     switch (action.type){ 
       case "Toggle":
-        if(state.theme==="dark")
+        if(state.theme==="dark") 
           return theme.light
         else
           return theme.dark
